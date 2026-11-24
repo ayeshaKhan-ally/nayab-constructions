@@ -250,6 +250,9 @@ export default function Navbar() {
         {/* Mobile Navigation Drawer */}
         {mobileMenuOpen && (
           <div className="xl:hidden bg-luxury-bg border-t border-luxury-border px-4 pt-4 pb-6 space-y-2 animate-fadeIn max-h-[85vh] overflow-y-auto">
+            <div className="pb-3 mb-2 border-b border-luxury-border/60">
+              <BrandLogo variant="header" />
+            </div>
             {navLinks.map((link) => (
               <div key={link.name}>
                 <Link

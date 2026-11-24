@@ -69,10 +69,12 @@ export default function LeadershipSection({
                       <div className="relative aspect-[3/4] w-full rounded-2xl overflow-hidden border-2 border-luxury-gold/40 shadow-luxury group-hover:border-luxury-gold transition-all duration-300 bg-luxury-beige">
                         <Image
                           src={founder.image}
-                          alt={founder.name}
+                          alt={`${founder.name} - ${founder.designation} at Nayab Construction`}
                           fill
                           sizes="(max-width: 640px) 100vw, 300px"
-                          className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                          className={`object-cover ${
+                            isFounder ? "object-top" : "object-[center_35%]"
+                          } transition-transform duration-700 group-hover:scale-105`}
                           priority
                         />
                         {/* Gold corner accent overlay */}

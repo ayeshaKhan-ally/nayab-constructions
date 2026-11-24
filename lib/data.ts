@@ -75,13 +75,13 @@ export const COMPANY_INFO = {
 export const FOUNDERS: Founder[] = [
   {
     name: "Mr. Sadat Ulla Khan",
-    designation: "Founder – NAYAB CONSTRUCTION",
+    designation: "Founder",
     profession: "Civil Engineer",
-    experience: "25 Years of Experience",
+    experience: "25 Years Experience",
     experienceYears: 25,
     image: "/images/leadership/founder-sadat-ulla-khan.jpg",
     description:
-      "With 25 years of professional experience, Mr. Sadat Ulla Khan brings extensive experience, technical leadership, and engineering integrity to the construction and civil engineering industry.",
+      "With 25 years of professional experience, Mr. Sadat Ulla Khan brings extensive civil engineering mastery, structural integrity, and leadership to the construction industry.",
     highlights: [
       "25 Years of Civil Engineering & Construction Mastery",
       "Specialist in Structural Integrity & Foundation Engineering",
@@ -91,9 +91,9 @@ export const FOUNDERS: Founder[] = [
   },
   {
     name: "Mr. Nayab Noor Mohammad Khan",
-    designation: "Co-Founder – NAYAB CONSTRUCTION",
-    profession: "Construction & Project Management",
-    experience: "8 Years of Experience",
+    designation: "Co-Founder",
+    profession: "Construction & Project Coordination",
+    experience: "8 Years Experience",
     experienceYears: 8,
     image: "/images/leadership/cofounder-nayab-noor-mohammad-khan.jpg",
     description:
@@ -118,7 +118,7 @@ export const SERVICES: ServiceDetail[] = [
     fullDesc:
       "Nayab Construction provides comprehensive architectural design and spatial planning services for residential, commercial, and industrial properties. Our designs harmoniously blend aesthetic luxury, functional flow, climate orientation, and statutory compliance with local municipal norms.",
     iconName: "Compass",
-    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/images/services/architectural-planning.jpg",
     offerings: [
       "2D Floor Plans & Spatial Layouts",
       "Architectural Working Drawings",
@@ -155,7 +155,7 @@ export const SERVICES: ServiceDetail[] = [
     fullDesc:
       "Headed by our founder Mr. Sadat Ulla Khan with 25 years of civil engineering expertise, our structural engineering wing guarantees unmatched safety, seismic resistance, and material efficiency for buildings of any magnitude.",
     iconName: "HardHat",
-    heroImage: "https://images.unsplash.com/photo-1541888946425-d0fbb1861564?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/images/services/structural-design.jpg",
     offerings: [
       "Centreline Marking & Grid Pegging",
       "Foundation Detailing (Isolated, Combined, Raft, Pile)",
@@ -192,7 +192,7 @@ export const SERVICES: ServiceDetail[] = [
     fullDesc:
       "Nayab Construction is Ramanagara's premier builder for luxury villas, modern residential homes, commercial complexes, and industrial premises. We handle every phase with disciplined site supervision, grade-A building materials, and transparent contractual terms.",
     iconName: "Building2",
-    heroImage: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/images/services/construction-services.jpg",
     offerings: [
       "Residential Building Construction",
       "Independent House Construction",
@@ -230,7 +230,7 @@ export const SERVICES: ServiceDetail[] = [
     fullDesc:
       "We believe interior spaces should evoke warmth, elegance, and effortless functionality. Our interior designers collaborate closely with you to curate materials, lighting, bespoke woodcraft, and furnishings that reflect your personal prestige.",
     iconName: "Home",
-    heroImage: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/images/services/interior-design.jpg",
     offerings: [
       "Residential Luxury Interior Design",
       "Commercial Office & Retail Interiors",
@@ -270,7 +270,7 @@ export const SERVICES: ServiceDetail[] = [
     fullDesc:
       "Our state-of-the-art 3D architectural visualization brings structural concepts to life with true-to-life textures, daylight conditions, landscape integration, and night illumination scenes, complemented by authentic Vastu principles.",
     iconName: "Layers",
-    heroImage: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/images/services/3d-visualization.jpg",
     offerings: [
       "2D Building Elevations (Front, Rear, Left, Right)",
       "3D Exterior Elevations (Modern, Contemporary, Classical, Minimalist)",
@@ -303,7 +303,7 @@ export const SERVICES: ServiceDetail[] = [
     fullDesc:
       "Eliminate budget overruns with Nayab Construction's precision estimation wing. Leveraging two-and-a-half decades of market pricing data across Ramanagara and Bengaluru, our estimates give you exact numbers down to the last bag of cement and foot of steel.",
     iconName: "Calculator",
-    heroImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/images/services/estimation-costing.jpg",
     offerings: [
       "Bank Loan Estimates (Nationalized & Private Banks)",
       "Comprehensive Construction Costing & Budgeting",
@@ -338,7 +338,7 @@ export const SERVICES: ServiceDetail[] = [
     fullDesc:
       "Navigating municipal authorities, planning authorities, and utility boards can be complex. Nayab Construction provides dedicated documentation support in Ramanagara, Bangalore South, and surrounding jurisdictions to secure clean sanctions swiftly.",
     iconName: "FileCheck",
-    heroImage: "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/images/services/building-approvals.jpg",
     offerings: [
       "Building Plan Approval Assistance (CMC, BMRDA, Grama Panchayat)",
       "Sanction Plan Preparation adhering to Zoning Bylaws",
@@ -373,7 +373,7 @@ export const SERVICES: ServiceDetail[] = [
     fullDesc:
       "Financing your dream home shouldn't be stressful. We bridge the gap between clients and premier banking institutions by assembling airtight technical estimation dossiers, valuation papers, and project progress certificates required for speedy sanction and stage-wise disbursements.",
     iconName: "Landmark",
-    heroImage: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/images/services/loan-assistance.jpg",
     offerings: [
       "Home Loan Assistance (Purchase & New Build)",
       "Construction Loan Assistance for Self-Financed Plots",
@@ -407,7 +407,7 @@ export const SERVICES: ServiceDetail[] = [
     fullDesc:
       "Nayab Construction is at the forefront of regional real estate development. We transform raw land into high-value residential layouts and prime commercial hubs, offering discerning investors and homebuyers exceptional capital appreciation.",
     iconName: "TrendingUp",
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/images/services/real-estate.jpg",
     offerings: [
       "Residential Property Development & Layout Formation",
       "Commercial Property Development & Office Hubs",
@@ -445,7 +445,7 @@ export const PROJECTS: ProjectItem[] = [
     status: "Completed",
     location: "Ramanagara",
     area: "4,200 Sq. Ft.",
-    image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/projects/grand-crest-villa.jpg",
     description: "A contemporary 4BHK architectural masterpiece featuring double-height living areas, floor-to-ceiling glazing, private courtyards, and integrated champagne gold accents.",
     features: ["4 Master Suites", "Double Height Living Room", "Infinity Reflection Pond", "Italian Marble Flooring", "Home Automation"],
     isSampleVisual: true,
@@ -457,7 +457,7 @@ export const PROJECTS: ProjectItem[] = [
     status: "Completed",
     location: "Near Court Complex, Ramanagara",
     area: "8,500 Sq. Ft.",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/projects/al-noor-commercial.jpg",
     description: "Multi-level commercial complex engineered with post-tensioned slabs, high-performance structural glazing, retail frontage, and professional office chambers.",
     features: ["4 Floors Retail & Offices", "High-Speed Elevator", "Basement Parking", "Full Power Backup", "BESCOM Substation"],
     isSampleVisual: true,
@@ -469,7 +469,7 @@ export const PROJECTS: ProjectItem[] = [
     status: "Ongoing",
     location: "Ijoor, Ramanagara",
     area: "3,100 Sq. Ft.",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/projects/serene-meadow-residence.jpg",
     description: "Modern independent 3BHK residence incorporating Vastu-oriented spaces, cantilevered balconies, thermal insulation, and custom teakwood joinery.",
     features: ["3 Ensuite Bedrooms", "Landscaped Terrace Garden", "Solar Heating System", "Acoustic Glazing", "Custom Modular Kitchen"],
     isSampleVisual: true,
@@ -481,7 +481,7 @@ export const PROJECTS: ProjectItem[] = [
     status: "Completed",
     location: "Bengaluru South Corridor",
     area: "2,800 Sq. Ft.",
-    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/projects/opulent-penthouse.jpg",
     description: "Bespoke interior turnkey execution showcasing fluted wall panels, warm concealed cove lighting, quartz island kitchen, and custom walk-in closets.",
     features: ["German Hardware Modular Kitchen", "Custom Walk-in Wardrobes", "Smart Mood Lighting", "Acoustic Paneling", "Italian Travertine Feature Wall"],
     isSampleVisual: true,
@@ -493,7 +493,7 @@ export const PROJECTS: ProjectItem[] = [
     status: "Completed",
     location: "Bidadi Industrial Area",
     area: "14,000 Sq. Ft.",
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/projects/zenith-industrial.jpg",
     description: "Heavy-duty industrial PEB structure with crane gantry provisions, heavy floor loading capacities, vacuum dewatered flooring (VDF), and administrative wings.",
     features: ["10-Tonne Crane Provision", "VDF Heavy Duty Flooring", "Fire Sprinkler Network", "Loading Docks", "Dedicated Transformer Yard"],
     isSampleVisual: true,
@@ -505,7 +505,7 @@ export const PROJECTS: ProjectItem[] = [
     status: "Completed",
     location: "Ramanagara Environs",
     area: "3,800 Sq. Ft.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/projects/courtyard-pavilion-3d.jpg",
     description: "Photorealistic architectural visualization rendering displaying tropical brutalist concrete formwork, vertical timber louvers, and warm ambient exterior nightscape.",
     features: ["4K Daylight & Dusk Renders", "True Material Texturing", "Landscape Modeling", "Detailed Joinery Elevation", "Vastu Compliant Orientations"],
     isSampleVisual: true,
@@ -517,7 +517,7 @@ export const PROJECTS: ProjectItem[] = [
     status: "Ongoing",
     location: "Near Gandhi Park, Ramanagara",
     area: "4.5 Acres",
-    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/projects/emerald-estate.jpg",
     description: "Gated residential layout featuring 30x40 and 30x50 villa plots, underground utility cabling, asphalt tree-lined boulevards, and rainwater harvesting.",
     features: ["BMRDA Approved Layout", "Underground Drainage (UGD)", "Park & Play Enclave", "24/7 Security Gatehouse", "Clear Title Documents"],
     isSampleVisual: true,
@@ -529,7 +529,7 @@ export const PROJECTS: ProjectItem[] = [
     status: "Completed",
     location: "Ramanagara",
     area: "1,950 Sq. Ft.",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/projects/corporate-studio.jpg",
     description: "Modern professional headquarters featuring acoustic conference enclosures, ergonomic workstations, executive lounge, and brass branding accents.",
     features: ["Glass Partitioning", "Ergonomic Layouts", "Custom Reception Desk", "Integrated Video Conferencing", "LED Profile Channels"],
     isSampleVisual: true,
@@ -541,84 +541,84 @@ export const GALLERY_ITEMS = [
     id: "gal-1",
     title: "Modern Luxury Villa Elevation",
     category: "Architecture & Elevation",
-    image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/gallery/gallery-villa-elevation.jpg",
     description: "Exterior facade featuring cantilevered balconies and illuminated glass balustrades.",
   },
   {
     id: "gal-2",
     title: "Luxury Modular Kitchen with Island",
     category: "Interiors",
-    image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/gallery/gallery-modular-kitchen.jpg",
     description: "High-gloss acrylic cabinetry with quartz waterfall island and concealed profile lighting.",
   },
   {
     id: "gal-3",
     title: "Master Bedroom Retreat",
     category: "Interiors",
-    image: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/gallery/gallery-master-bedroom.jpg",
     description: "Serene master bedroom with velvet acoustic headboard and warm ambient illumination.",
   },
   {
     id: "gal-4",
     title: "Contemporary Living Room",
     category: "Interiors",
-    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/gallery/gallery-living-room.jpg",
     description: "Spacious open-concept living area with fluted marble TV unit and minimalist furniture.",
   },
   {
     id: "gal-5",
     title: "Precision RCC Construction",
     category: "Construction Progress",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb1861564?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/gallery/gallery-rcc-construction.jpg",
     description: "Active site supervision of roof beam reinforcement and concrete shuttering.",
   },
   {
     id: "gal-6",
     title: "Commercial Glass Facade",
     category: "Commercial",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/gallery/gallery-commercial-facade.jpg",
     description: "Structural glazed commercial facade designed for optimal thermal performance.",
   },
   {
     id: "gal-7",
     title: "3D Isometric Interior View",
     category: "3D Visualization",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/gallery/gallery-isometric-interior.jpg",
     description: "Cutaway isometric rendering detailing spatial flow and furniture arrangements.",
   },
   {
     id: "gal-8",
     title: "Luxury Villa at Twilight",
     category: "Architecture & Elevation",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/gallery/gallery-twilight-villa.jpg",
     description: "Evening illumination showing exterior architectural sconces and landscape lighting.",
   },
   {
     id: "gal-9",
     title: "Bespoke Walk-in Wardrobe",
     category: "Interiors",
-    image: "https://images.unsplash.com/photo-1558997519-83ea9252def8?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/gallery/gallery-walkin-wardrobe.jpg",
     description: "Tinted glass sliding wardrobes with integrated motion sensor LED lighting.",
   },
   {
     id: "gal-10",
     title: "Site Earthwork & Marking",
     category: "Construction Progress",
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/gallery/gallery-site-earthwork.jpg",
     description: "Civil engineer centreline marking and grid pegging for accurate foundation excavation.",
   },
   {
     id: "gal-11",
     title: "Modern Dining & Bar Lounge",
     category: "Interiors",
-    image: "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/gallery/gallery-dining-lounge.jpg",
     description: "Solid wood 8-seater dining table complemented by champagne gold pendant lights.",
   },
   {
     id: "gal-12",
     title: "Industrial PEB Facility",
     category: "Industrial",
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/gallery/gallery-industrial-peb.jpg",
     description: "Engineered pre-engineered steel building with industrial roofing and perimeter ventilation.",
   },
 ];

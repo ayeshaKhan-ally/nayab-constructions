@@ -32,7 +32,7 @@ export default function AboutPage() {
       <section className="relative py-20 lg:py-28 bg-luxury-charcoal text-white overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <Image
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80"
+            src="/images/hero/about-architecture-hero.jpg"
             alt="About Nayab Construction"
             fill
             className="object-cover"
@@ -106,7 +106,7 @@ export default function AboutPage() {
           <div className="lg:col-span-6 relative">
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden border border-luxury-border shadow-luxury-lg">
               <Image
-                src="https://images.unsplash.com/photo-1541888946425-d0fbb1861564?auto=format&fit=crop&w=1600&q=80"
+                src="/images/hero/about-engineering-site.jpg"
                 alt="Nayab Construction Engineering Site"
                 fill
                 sizes="(max-width: 1024px) 100vw, 600px"

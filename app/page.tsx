@@ -51,7 +51,7 @@ export default function HomePage() {
         {/* Background Ultra-Realistic Villa Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=2400&q=85"
+            src="/images/hero/luxury-villa-hero.jpg"
             alt="Nayab Construction Luxury Villa Architecture"
             fill
             priority
@@ -224,7 +224,7 @@ export default function HomePage() {
             <div className="lg:col-span-6 relative">
               <div className="relative aspect-[4/3] rounded-3xl overflow-hidden border border-luxury-border shadow-luxury-lg">
                 <Image
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80"
+                  src="/images/hero/about-architecture-hero.jpg"
                   alt="Nayab Construction Architectural Mastery"
                   fill
                   sizes="(max-width: 1024px) 100vw, 600px"
